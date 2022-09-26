@@ -154,7 +154,7 @@ public class Game
         System.out.println("Você tem " + jogador.getVida() + " de Vida e causa " + jogador.getDano() + " de Dano");
         System.out.println("Seu navio tem " + jogador.getVidaNavio() + " de Vida e causa " + jogador.getDanoNavio() + " de Dano");
         System.out.println("Você atracou na Ilha do Sul. Navegue entre as ilhas para encontrar informações da localização do tesouro!");
-        System.out.println("Digite '" + CommandWord.GO + "' e o saída desejada para explorar.");
+        System.out.println("Digite '" + CommandWord.GO + "' e a saída desejada para explorar.");
         System.out.println("Digite '" + CommandWord.HELP + "' se precisar de ajuda.");
         System.out.println();
         System.out.println(currentRoom.getLongDescription(jogador));
